@@ -1,0 +1,9 @@
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\bin\Debug\netstandard2.0\VideoClubApiRest.Core.deps.json
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\bin\Debug\netstandard2.0\VideoClubApiRest.Core.dll
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\bin\Debug\netstandard2.0\VideoClubApiRest.Core.pdb
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\obj\Debug\netstandard2.0\VideoClubApiRest.Core.csprojAssemblyReference.cache
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\obj\Debug\netstandard2.0\VideoClubApiRest.Core.AssemblyInfoInputs.cache
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\obj\Debug\netstandard2.0\VideoClubApiRest.Core.AssemblyInfo.cs
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\obj\Debug\netstandard2.0\VideoClubApiRest.Core.dll
+C:\Users\kaomeram\source\repos\VideoClubApiRest\VideoClubApiRest.Core\obj\Debug\netstandard2.0\VideoClubApiRest.Core.pdb
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Core\obj\Debug\netstandard2.0\VideoClubApiRest.Core.csproj.CoreCompileInputs.cache

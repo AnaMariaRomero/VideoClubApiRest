@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\XUnitTestVideoClub\\XUnitTestVideoClub.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Api\\VideoClubApiRest.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Api\\VideoClubApiRest.Api.csproj",
+        "projectName": "VideoClubApiRest.Api",
+        "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Api\\VideoClubApiRest.Api.csproj",
+        "packagesPath": "C:\\Users\\kaomeram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaomeram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj": {
+                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj"
+              },
+              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFrameworkCoreMock.Moq": {
+              "target": "Package",
+              "version": "[1.0.0.30, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj",
+        "projectName": "VideoClubApiRest.Core",
+        "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj",
+        "packagesPath": "C:\\Users\\kaomeram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaomeram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFrameworkCoreMock.Moq": {
+              "target": "Package",
+              "version": "[1.0.0.30, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj",
+        "projectName": "VideoClubApiRest.Infraestructure",
+        "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\kaomeram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaomeram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj": {
+                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFrameworkCoreMock.Moq": {
+              "target": "Package",
+              "version": "[1.0.0.30, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.9.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "VisioForge.DotNet.Core.TRIAL": {
+              "target": "Package",
+              "version": "[12.0.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\XUnitTestVideoClub\\XUnitTestVideoClub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\XUnitTestVideoClub\\XUnitTestVideoClub.csproj",
+        "projectName": "XUnitTestVideoClub",
+        "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\XUnitTestVideoClub\\XUnitTestVideoClub.csproj",
+        "packagesPath": "C:\\Users\\kaomeram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\XUnitTestVideoClub\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaomeram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Api\\VideoClubApiRest.Api.csproj": {
+                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Api\\VideoClubApiRest.Api.csproj"
+              },
+              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj": {
+                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj"
+              },
+              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\XUnitTestProjectVideoClub\obj\Debug\netcoreapp3.1\XUnitTestProjectVideoClub.csprojAssemblyReference.cache
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\XUnitTestProjectVideoClub\obj\Debug\netcoreapp3.1\XUnitTestProjectVideoClub.AssemblyInfoInputs.cache
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\XUnitTestProjectVideoClub\obj\Debug\netcoreapp3.1\XUnitTestProjectVideoClub.AssemblyInfo.cs
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\XUnitTestProjectVideoClub\obj\Debug\netcoreapp3.1\XUnitTestProjectVideoClub.csproj.CoreCompileInputs.cache
