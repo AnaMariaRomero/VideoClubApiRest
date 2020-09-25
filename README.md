@@ -3,12 +3,10 @@
 Instalación de herramientas
 
 En este repositorio se presenta el funcionamiento de una api rest, los requerimientos principales a tratar son los siguientes:
-El sistema debe recibir información en XML que se detalla con un ejemplo en el Anexo.
+El sistema debe recibir información en XML. 
 Se tiene que validar que  el client_id y el object_id tengan un formato de UUID (ver qué se puede validar)
-El status puede ser RENT / DELIVERY_TO_RENT / RETURN / DELIVERY_TO_RETURN 
-La fecha tiene que ser con formato AAAA/MM/DD
-Prestar atención con los status code a devolver en el response.
-Prestar atención con los headers y los verbos HTTP en el request.
+El status puede ser RENT / DELIVERY_TO_RENT / RETURN / DELIVERY_TO_RETURN.  
+La fecha tiene que ser con formato AAAA/MM/DD. 
 
 Trabajaremos en Windows y las herramientas que utilizaremos serán las siguientes:
 
