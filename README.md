@@ -161,3 +161,14 @@ Para ello es esencial crear un método que nos entregue dicha base de datos fals
                               return exampleDBContext ;
                           }
 UseInMemoryDatabase(Guid.NewGuid().ToString("N")); esto nos crea una base de datos en memoria, su parámetro es el nombre que recibirá esa base de datos.
+
+Un ejemplo de uso realizado con POSTMAN:
+GET: http://localhost:5000/api/rents
+Obtenemos lo siguiente:
+{
+"rentId": "1",
+"objectId":"4f9019ff-8b86-d088-b42d-00c04fc964f",
+"clientId":"4f9019ff-8b86-d088-b42d-00c04fc964f",
+"status":"RENTED",
+"until":"23/08/1919"
+}
