@@ -44,7 +44,8 @@ Este es el script que cree:
         create database VDBD
         use VCBD
         create table RENTS(
-          object_id uniqueidentifier not null primary key,
+          rent_id int not null primary key identity(1,1)
+          object_id uniqueidentifier not null,
           client_id uniqueidentifier not null,
           detailssatus VARCHAR(50) not null, 
           detailsuntil VARCHAR(50) not null,);
