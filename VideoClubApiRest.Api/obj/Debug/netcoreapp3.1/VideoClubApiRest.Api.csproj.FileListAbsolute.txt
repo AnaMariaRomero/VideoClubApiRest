@@ -79,6 +79,7 @@ C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\n
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\EntityFrameworkCoreMock.Moq.dll
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\EntityFrameworkCoreMock.Shared.dll
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\Docker.DotNet.dll
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\obj\Debug\netcoreapp3.1\VideoClubApiRest.Api.csproj.CoreCompileInputs.cache
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\obj\Debug\netcoreapp3.1\VideoClubApiRest.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\obj\Debug\netcoreapp3.1\VideoClubApiRest.Api.MvcApplicationPartsAssemblyInfo.cache

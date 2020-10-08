@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoClubApiRest.Core", "Vi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoClubApiRest.Infraestructure", "VideoClubApiRest.Infraestructure\VideoClubApiRest.Infraestructure.csproj", "{EDB3A66B-BBC8-4BE6-ACB6-5DBE4412C0B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestVideoClub", "TestVideoClub\TestVideoClub.csproj", "{943646AF-4831-487F-ACCA-1DFB6027BFAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestVideoClub", "TestVideoClub\TestVideoClub.csproj", "{943646AF-4831-487F-ACCA-1DFB6027BFAE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{723D7D0C-E826-431F-A6EA-4014C8E46F86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{943646AF-4831-487F-ACCA-1DFB6027BFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{943646AF-4831-487F-ACCA-1DFB6027BFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{943646AF-4831-487F-ACCA-1DFB6027BFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723D7D0C-E826-431F-A6EA-4014C8E46F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723D7D0C-E826-431F-A6EA-4014C8E46F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723D7D0C-E826-431F-A6EA-4014C8E46F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723D7D0C-E826-431F-A6EA-4014C8E46F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

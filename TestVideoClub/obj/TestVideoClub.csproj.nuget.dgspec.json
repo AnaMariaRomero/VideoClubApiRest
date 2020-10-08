@@ -146,9 +146,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj": {
-                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj"
-              },
               "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj": {
                 "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj"
               }
@@ -164,6 +161,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.4, )"
+            },
             "EntityFrameworkCoreMock.Moq": {
               "target": "Package",
               "version": "[1.0.0.30, )"
@@ -173,6 +174,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
             }
           },
           "imports": [
