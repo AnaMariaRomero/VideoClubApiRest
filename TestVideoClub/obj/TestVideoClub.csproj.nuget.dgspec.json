@@ -146,6 +146,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj": {
+                "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj"
+              },
               "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj": {
                 "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj"
               }

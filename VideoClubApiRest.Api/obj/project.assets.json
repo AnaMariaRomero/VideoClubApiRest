@@ -8455,6 +8455,7 @@
       "EntityFrameworkCoreMock.Moq >= 1.0.0.30",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.8",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "VideoClubApiRest.Core >= 1.0.0",
       "VideoClubApiRest.Infraestructure >= 1.0.0"
     ]
   },
@@ -8489,6 +8490,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj": {
+              "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Core\\VideoClubApiRest.Core.csproj"
+            },
             "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj": {
               "projectPath": "C:\\Users\\kaomeram\\source\\repos\\VideoClubAPIREST\\VideoClubApiRest.Infraestructure\\VideoClubApiRest.Infraestructure.csproj"
             }

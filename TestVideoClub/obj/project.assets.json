@@ -2570,6 +2570,7 @@
           "Docker.DotNet": "3.125.4",
           "EntityFrameworkCoreMock.Moq": "1.0.0.30",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
+          "VideoClubApiRest.Core": "1.0.0",
           "VideoClubApiRest.Infraestructure": "1.0.0"
         },
         "compile": {
