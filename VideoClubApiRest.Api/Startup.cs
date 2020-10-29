@@ -28,9 +28,10 @@ namespace VideoClubApiRest.Api
             services.AddDbContext<VideoClubDBContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<InterfaceRentsRepository, RentsRepository>();
-            services.AddMvc().AddFluentValidation(options => {
-                options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
-            });
+            services.AddMvc()//.AddFluentValidation(options => {
+               // options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
+            //})
+            ;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

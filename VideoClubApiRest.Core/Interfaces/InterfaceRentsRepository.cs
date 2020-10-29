@@ -10,5 +10,6 @@ namespace VideoClubApiRest.Core.Interfaces
     {
         Task <IEnumerable<Rents>> GetRents();
         Task InsertRents(Rents rent);
+
     }
 }

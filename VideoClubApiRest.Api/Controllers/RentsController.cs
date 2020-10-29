@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Xml;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VideoClubApiRest.Core.Entities;
 using VideoClubApiRest.Core.Interfaces;
+using VideoClubApiRest.Infraestructure.Validators;
 
 namespace VideoClubApiRest.Api.Controllers
 {
@@ -15,22 +17,30 @@ namespace VideoClubApiRest.Api.Controllers
     {
         private readonly InterfaceRentsRepository _rentsRepository;
 
-        public RentsController( InterfaceRentsRepository rentsRepository)
+        public RentsController(InterfaceRentsRepository rentsRepository)
         {
             _rentsRepository = rentsRepository;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetRents() {
+        public async Task<IActionResult> GetRents()
+        {
             var rents = await _rentsRepository.GetRents();
             return Ok(rents);
         }
 
         [HttpPost]
+        
         public async Task<IActionResult> InsertRents(Rents rent)
         {
-            await _rentsRepository.InsertRents(rent);
-            return Ok("Creado con éxito. ");
+            if (XMLValidators.ValidXML(rent)=="")
+            {
+                await _rentsRepository.InsertRents(rent);
+                return Ok(rent);
+            }
+            else {
+                return BadRequest(XMLValidators.ValidXML(rent));
+            }
         }
 
     }

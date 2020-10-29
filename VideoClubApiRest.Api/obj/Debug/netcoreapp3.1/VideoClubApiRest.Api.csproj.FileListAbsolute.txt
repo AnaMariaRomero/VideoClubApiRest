@@ -83,3 +83,7 @@ C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\n
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\obj\Debug\netcoreapp3.1\VideoClubApiRest.Api.csproj.CoreCompileInputs.cache
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\obj\Debug\netcoreapp3.1\VideoClubApiRest.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\obj\Debug\netcoreapp3.1\VideoClubApiRest.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\System.Web.Http.WebHost.dll
+C:\Users\kaomeram\source\repos\VideoClubAPIREST\VideoClubApiRest.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
